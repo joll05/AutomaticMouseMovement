@@ -7,8 +7,8 @@ n := 0
 
 Loop {
     MouseMove, Mod(n, A_ScreenWidth), Mod(n, A_ScreenHeight)
-    Sleep, 50
-    n := n + 3
+    Sleep, 17 
+    n := n + 1
 }
 
 Esc::ExitApp
